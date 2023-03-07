@@ -45,11 +45,17 @@ body {
     font-family: 'Hanken Grotesk', 'Kumbh Sans', sans-serif;
     /* font-family: 'Kumbh Sans', sans-serif; */
     font-size: 1.125rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    min-height: 100vh;
+
 }
 
 .container {
-    max-width: 46rem;
-    margin: 17.75rem auto;
+    max-width: 48rem;
+    width: 100%;
     display: flex;
     border-radius: 1.875rem;
     box-shadow: 0 0 20px rgba(0, 0, 0, .1);
@@ -65,7 +71,6 @@ body {
     flex-direction: column;
     align-items: center;
     color: var(--Light-lavender);
-    max-width: 23rem;
 }
 
 .title {
@@ -173,7 +178,6 @@ body {
     }
 
     .left-panel {
-        max-width: 100%;
         border-top-right-radius: 0;
         border-top-left-radius: 0;
     }
